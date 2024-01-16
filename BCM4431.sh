@@ -36,7 +36,7 @@ modprobe wl
             echo "apt-get update"
             echo "apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')"
             echo "dpkg -i dkms_3.0.12-1_all.deb"
-            echo "dpkg -i b34-fwcutter_019-4_amd64.deb "
+            echo "dpkg -i b34-fwcutter_019-4_amd64.deb"
             echo "dpkg -i firmware-b43-installer_019-4_all.deb"
             echo "dpkg -i firmware-b43legacy-installer_019-4_all.deb"
             echo "dpkg -i broadcom-sta-dkms_6.30.223.271-23_all.deb "
