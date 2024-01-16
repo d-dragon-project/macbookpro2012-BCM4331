@@ -23,7 +23,7 @@ do
         "Install Wifi Driver")
             echo "Installing Packages and Drivers To Your Machine"
 apt-get update
-apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
+apt-get install -y linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 dpkg -i dkms_3.0.12-1_all.deb
 dpkg -i b43-fwcutter_019-4_amd64.deb
 dpkg -i firmware-b43-installer_019-4_all.deb
