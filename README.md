@@ -1,8 +1,6 @@
-After downloading from github, add execute to the bash files update.sh and BCM4431.sh using chmod +x <name.sh>
-First run update.sh followed by BCN4431.sh
+After downloading from github
+Add execute to the bash files update.sh, BCM4431.sh, RTL8811au.sh | chmod +x <name.sh>
+First run update.sh (this will reboot the machine)
+To install wifi drivers run BCN4431.sh and RTL8811au.sh
 Check if the built-in wifi of the Macbook Pro will be able to detect both 2.4GHz and 5.0GHz wifi signals
-
-git clone https://github.com/aircrack-ng/rtl8812au.git
-run make && make install
-
-Install grub-customizer 
+Run grub.sh Install grub-customizer 
