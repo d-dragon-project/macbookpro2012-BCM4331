@@ -4,3 +4,5 @@ Check if the built-in wifi of the Macbook Pro will be able to detect both 2.4GHz
 
 git clone https://github.com/aircrack-ng/rtl8812au.git
 run make && make install
+
+Install grub-customizer 
